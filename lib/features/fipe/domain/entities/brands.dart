@@ -1,9 +1,18 @@
-//import 'package:bloc/bloc.dart';
+//import 'dart:convert';
+
+import 'package:caranga/utils/json_utils.dart';
 
 class Brands {
-  //extends Cubit<Map<String, String>> {
-  Brands({Map<String, String> brandMap = const {}}); //: super(brandMap);
+  Brands({this.brandsList = const []});
 
-  //void action1() {} //emit(state + 1);
-  //void action2() {} //=> emit(state - 1);
+  List<Map<String, String>> brandsList;
+
+  factory Brands.fromString(String value) {
+    final data = JsonUtils.fromText(value);
+    if (data.first['codigo'] != 'Error') {
+      return Brands(brandsList: data);
+    } else {
+      return Brands();
+    }
+  }
 }

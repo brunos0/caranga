@@ -1,17 +1,21 @@
-# caranga
+# Caranga
 
-A new Flutter project.
+A simple app to fetch car vehicles prices from FIPE! 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The application was developed with the aim of training the concepts of Flutter Security Store, Cubit, Go Router and other stuffs.  
 
-A few resources to get you started if this is your first Flutter project:
+## Version  
+ 
+1.0 - Initial Release
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## TODO  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# caranga
+Centralize all texts within app constant file.
+  
+## Give a try!  
+
+
+
+## Screenshots  
